@@ -21,7 +21,6 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "users")
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
 public class UserEntity {
 
@@ -32,4 +31,8 @@ public class UserEntity {
     private String name;
     private String email;
 
+    public UserEntity(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
 }

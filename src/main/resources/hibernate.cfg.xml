@@ -8,9 +8,9 @@
 
         <!-- Database connection -->
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/your_db_name</property>
-        <property name="hibernate.connection.username">your_username</property>
-        <property name="hibernate.connection.password">your_password</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/demo_hibernate_db</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">root</property>
 
         <!-- Hibernate config -->
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>

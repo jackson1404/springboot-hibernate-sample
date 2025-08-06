@@ -4,16 +4,12 @@
  * Version      : 	
  * History  :	
  * *************************************************************/
-package com.jackson.springboot_hibernate.util;
+package com.jackson.springboot_hibernate.sample.util;
 
-import com.jackson.springboot_hibernate.model.UserEntity;
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import com.jackson.springboot_hibernate.sample.model.UserEntity;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import org.hibernate.boot.registry.internal.StandardServiceRegistryImpl;
 import org.hibernate.cfg.Configuration;
-import org.springframework.stereotype.Component;
 
 /**
  * HibernateUtil Class.

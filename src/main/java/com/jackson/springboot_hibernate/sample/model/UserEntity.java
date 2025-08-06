@@ -4,7 +4,7 @@
  * Version      : 	
  * History  :	
  * *************************************************************/
-package com.jackson.springboot_hibernate.model;
+package com.jackson.springboot_hibernate.sample.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
